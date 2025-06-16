@@ -6,7 +6,7 @@ body{
   text-align: center;
   padding-top: 80px;
 }
-/* Navbar Styling */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -23,12 +23,12 @@ body{
   
 }
 
-/* Logo Section - Adjust Position */
+
 .logo img {
-  height: 50px; /* Adjust logo size */
+  height: 50px; 
   position: absolute;
-  top: 8px; /* Moves the logo slightly down */
-  left: 100px; /* Adjust left positioning */
+  top: 8px; 
+  left: 100px; 
 }
 
 /* Navigation Links - Smaller size */
@@ -37,7 +37,7 @@ body{
   list-style: none;
   margin-left: auto;
   padding: 0;
-  gap: 15px; /* Adjust spacing */
+  gap: 15px; 
 }
 
 .nav-links li {
@@ -48,8 +48,8 @@ body{
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 14px; /* Decreased size */
-  padding: 6px 22px; /* Adjust padding */
+  font-size: 14px; 
+  padding: 6px 22px; 
   transition: 0.3s;
 }
 a:hover{
@@ -211,13 +211,13 @@ footer {
 .footer-bottom {
   text-align: center;
   padding: 10px;
-  background-color: #006666; /* Slightly darker teal */
+  background-color: #006666; 
   font-size: 12px;
 }
-/* scrolling*/
+
 html, body {
-  overflow-x: hidden; /* Prevents left/right scrolling */
-  width: 100vw; /* Ensures content fits the viewport */
+  overflow-x: hidden; 
+  width: 100vw; 
   margin: 0;
   padding: 0;
 }

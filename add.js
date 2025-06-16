@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     giftCards.forEach(card => {
         card.addEventListener("contextmenu", function (event) {
-            event.preventDefault(); // Prevents the default right-click menu
+            event.preventDefault(); 
             showAd();
         });
     });
