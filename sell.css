@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #40e0d0;
+    padding: 10px 30px;
+    width:1500px;
+    height: 50px;
+    position:fixed;
+    
+}
+
+/* Logo Section - Adjust Position */
+.logo img {
+    height: 50px; /* Adjust logo size */
+    position: absolute;
+    top: 8px; /* Moves the logo slightly down */
+    left: 100px; /* Adjust left positioning */
+}
+
+/* Navigation Links - Smaller size */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    padding: 0;
+    gap: 15px; /* Adjust spacing */
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px; /* Decreased size */
+    padding: 6px 22px; /* Adjust padding */
+    transition: 0.3s;
+}
+a:hover{
+    color: white;
+}
+/* Hero Section */
+.hero {
+    background: url('handshake.png') no-repeat center center/cover;
+    color:black;
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 24px;
+}
+
+/* Form Section */
+.sell-card-form {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    width: 100%;
+    background: #FF007F;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #E6006F;
+}
+/* footer section */
+footer {
+    margin-top: 5px;
+    background-color: #008080; 
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    width: 100%;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #006666; /* Slightly darker teal */
+    font-size: 12px;
+}
+/* scrolling*/
+html, body {
+    overflow-x: hidden; /* Prevents left/right scrolling */
+    width: 100vw; /* Ensures content fits the viewport */
+    margin: 0;
+    padding: 0;
+}
+

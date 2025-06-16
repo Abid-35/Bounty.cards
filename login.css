@@ -1,0 +1,257 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-top: 80px;
+}
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #40e0d0;
+    padding: 10px 20px;
+    width:100%;
+    height: 50px;
+    position:fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+
+/* Logo Section - Adjust Position */
+.logo img {
+    height: 50px; /* Adjust logo size */
+    position: absolute;
+    top: 8px; /* Moves the logo slightly down */
+    left: 100px; /* Adjust left positioning */
+}
+
+/* Navigation Links - Smaller size */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    padding: 0;
+    gap: 15px; /* Adjust spacing */
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px; /* Decreased size */
+    padding: 6px 22px; /* Adjust padding */
+    transition: 0.3s;
+}
+a:hover{
+    color: white;
+}
+/* logiin details*/
+.login-container {
+    width: 350px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 120px;
+    
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+p {
+    font-size: 14px;
+    color: white;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.country-code {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.country-code img {
+    width: 20px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #777;
+}
+
+/* Forgot Password */
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #ff4081;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-decoration:none;
+}
+
+.forgot-password:hover {
+
+    color: #e6005c; 
+    
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #e73370;
+}
+
+/* Register Link */
+.register-link {
+    font-size: 14px;
+    margin-top: 15px;
+    text-align:center;
+    display: block;
+    color: #333;
+}
+
+.register-link a {
+    color: #ff4081;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left:10px;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+/* footer*/
+/* footer section */
+footer {
+    margin-top: 5px;
+    background-color: #008080; 
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    width: 100%;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #006666; /* Slightly darker teal */
+    font-size: 12px;
+}
+/* scrolling*/
+html, body {
+    overflow-x: hidden; /* Prevents left/right scrolling */
+    width: 100vw; /* Ensures content fits the viewport */
+    margin: 0;
+    padding: 0;
+}
+
+
+
